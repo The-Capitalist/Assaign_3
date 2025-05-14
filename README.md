@@ -41,14 +41,17 @@ R1, R2	Resistors (100Ω)	Limit current for LEDs
 
 1. Flash the ESP32
 
-Upload the Arduino sketch located in `esp32_code/` to your ESP32.
+Upload the Arduino sketch named assaignment to your ESP32.
 
 Make sure to:
 - Update the IP address of the Flask server in the ESP code.
 - Use a 10K + light-dependent resistor for light sensing.
 - Use a PIR sensor for motion.
 
-2. Run the Flask Server
+2. Run the Flask Server name backend
+3. Run the flet app (main.py script contains the code of app)
+
+4. Connect the circuit as follows
 
 
 ![image](https://github.com/user-attachments/assets/b8817888-1f6f-4ceb-84eb-f349a287610e)
